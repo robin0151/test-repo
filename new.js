@@ -22,3 +22,16 @@ console.log(a + ' + ' + b + ' = ' + c);
 console.log(a + ' + ' + b + ' = ' + (a - b));
 console.log(a + ' + ' + b + ' = ' + (a * b));
 console.log(a + ' + ' + b + ' = ' + (a / b));
+
+var a = 10;
+var b = 10.5;
+var c = 'robin';
+var d = true;
+var u
+var n = null;
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof u);
+console.log(typeof n);
