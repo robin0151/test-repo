@@ -82,4 +82,18 @@ var dividedNumber = 5;
 
 var result = sarahNumber % dividedNumber;
 
-console.log(result);
+// console.log(result);
+
+var vowels = ['a', 'e', 'i', 'o', 'u'];
+
+console.log(vowels.length);
+
+
+var numbers = [5, 10 , 15, 20, 25];
+console.log(numbers[2]);
+var element = numbers[3];
+console.log(element);
+
+
+var postionIndex = numbers.indexOf(25);
+console.log(postionIndex);
