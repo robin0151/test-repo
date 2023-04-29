@@ -36,7 +36,13 @@ console.log(typeof d);
 console.log(typeof u);
 console.log(typeof n);
 
-var num1 = 0.1;
+var num1 = "0.1";
 var num2 = 0.2;
-var sum = num1 + num2;
+var sum = parseFloat(num1) + num2;
 console.log(sum.toFixed(2));
+
+var x = 10;
+x = x + 10;
+var y = 25;
+y = y - 5;
+console.log(x + y);
