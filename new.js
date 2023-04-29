@@ -106,3 +106,13 @@ friendsAge.unshift(50);
 friendsAge.shift();
 
 console.log(friendsAge);
+
+var myBudget = 8000;
+var iphonePrice = 120000;
+
+if (myBudget < iphonePrice) {
+    console.log('iphone kine futani dekhamu');
+}
+else{
+    console.log('goriber bondu symphony');
+}
