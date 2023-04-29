@@ -91,9 +91,18 @@ console.log(vowels.length);
 
 var numbers = [5, 10 , 15, 20, 25];
 console.log(numbers[2]);
+numbers[3] = 22;
 var element = numbers[3];
 console.log(element);
 
 
-var postionIndex = numbers.indexOf(25);
-console.log(postionIndex);
+var positionIndex = numbers.indexOf(25);
+console.log(positionIndex);
+
+var friendsAge = [18 , 19, 22, 21, 25];
+friendsAge.pop();
+friendsAge.push(100);
+friendsAge.unshift(50);
+friendsAge.shift();
+
+console.log(friendsAge);
