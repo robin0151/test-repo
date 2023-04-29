@@ -4,9 +4,9 @@ var mangoPrice = parseFloat(mangoPrice);
 var remainder = mangoPrice % quantity;
 console.log(remainder);
 
-var firstName = 'Ahammed';
-var lastName = 'Robin';
-var fullName = firstName +' '+  lastName;
+var firstName = "Ahammed";
+var lastName = "Robin";
+var fullName = firstName + " " + lastName;
 console.log(fullName);
 
 var price = 50;
@@ -18,16 +18,16 @@ var a = 10;
 var b = 20;
 var c = a + b;
 
-console.log(a + ' + ' + b + ' = ' + c);
-console.log(a + ' + ' + b + ' = ' + (a - b));
-console.log(a + ' + ' + b + ' = ' + (a * b));
-console.log(a + ' + ' + b + ' = ' + (a / b));
+console.log(a + " + " + b + " = " + c);
+console.log(a + " + " + b + " = " + (a - b));
+console.log(a + " + " + b + " = " + a * b);
+console.log(a + " + " + b + " = " + a / b);
 
 var a = 10;
 var b = 10.5;
-var c = 'robin';
+var c = "robin";
 var d = true;
-var u
+var u;
 var n = null;
 console.log(typeof a);
 console.log(typeof b);
@@ -46,3 +46,40 @@ x = x + 10;
 var y = 25;
 y = y - 5;
 console.log(x + y);
+
+var love = 100;
+love--;
+console.log(love);
+
+var momGiving = 1000;
+var applePrice = 400;
+var orangePrice = 300;
+var totalPrice = applePrice + orangePrice;
+
+var returningMoney = momGiving - totalPrice;
+console.log(returningMoney);
+
+var mathematics = 75.25;
+var biology = 65;
+var chemistry = 80;
+var physics = 35.45;
+var bangla = 99.5;
+
+var total = mathematics + biology + chemistry + physics + bangla;
+var average = total / 5;
+
+console.log(average.toFixed(2));
+
+var firstLine = "I am going to be";
+var lastLine = "an awesome web developer";
+
+var fullLine = firstLine + " " + lastLine;
+
+console.log(fullLine);
+
+var sarahNumber = 119;
+var dividedNumber = 5;
+
+var result = sarahNumber % dividedNumber;
+
+console.log(result);
