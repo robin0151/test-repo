@@ -35,3 +35,8 @@ console.log(typeof c);
 console.log(typeof d);
 console.log(typeof u);
 console.log(typeof n);
+
+var num1 = 0.1;
+var num2 = 0.2;
+var sum = num1 + num2;
+console.log(sum.toFixed(2));
